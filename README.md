@@ -12,14 +12,14 @@ sudo curl https://raw.githubusercontent.com/bridgesense/chinuk-wawa-custom-keybo
 ```
 2. Activate the layout on your desktop via the keyboard settings by selecting "A user-defined custom Layout". Here's an example for KDE Plasma.
 
-![select layout](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/raw/master/media/select_layout.jpeg?raw=true)
+![select layout](https://github.com/bridgesense/chinuk-wawa-custom-…board/blob/main/media/select_layout.jpeg?raw=true)
 
-![toggle keyboard](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/raw/master/media/toggle_keyboard.jpeg?raw=true)
+![toggle keyboard](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/blob/main/media/toggle_keyboard.jpeg?raw=true)
 ## The Layout
 
-![noramal state](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/raw/master/media/cw_normal.jpeg?raw=true)
+![noramal state](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/blob/main/media/cw_normal.jpeg?raw=true)
 
-![shift state](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/raw/master/media/cw_shift.jpeg?raw=true)
+![shift state](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/blob/main/media/cw_shift.jpeg?raw=true)
 
 ### Notes:
 
