@@ -27,7 +27,7 @@ sudo curl -o /usr/share/X11/xkb/symbols/custom "https://raw.githubusercontent.co
 
 Although this keyboard works in most settings, xkb only allows the binding of one Unicode character to a single key. The letters `q̓`, `t̓`, `x̣`, and `ƛ̓` do not have a single Unicode equivalent. To use these characters it is necessary to type the letter twice, once in standard state and once in shift state.
 
-For example to get the letter `q̓`, type q and then type shift+q.
+For example to get the letter `x̣`, type x and then type shift+x.
 
 One advantage to the xkb system is that the keyboard is available to all applications, including the terminal.
 
