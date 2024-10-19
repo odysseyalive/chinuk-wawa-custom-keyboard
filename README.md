@@ -10,7 +10,7 @@ This installs a Chinuk Wawa custom keyboard onto most Linux distributions withou
 ```
 sudo curl -o /usr/share/X11/xkb/symbols/custom "https://raw.githubusercontent.com/bridgesense/chinuk-wawa-custom-keyboard/refs/heads/main/custom"
 ```
-2. Activate the layout on your desktop via the keyboard settings by selecting "A user-defined custom Layout". Here's an example for KDE Plasma. You may also need to add an additional keyboard layout for toggling between the two.
+2. Activate the layout on your desktop via the keyboard settings by selecting "A user-defined custom Layout". Here's an example for KDE Plasma. You may also need to add an additional keyboard layout for toggling between keyboards.
 
 ![select layout](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/blob/main/media/select_layout.jpeg?raw=true)
 
