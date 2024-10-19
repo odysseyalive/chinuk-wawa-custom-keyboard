@@ -1,0 +1,59 @@
+// GitHub :   https://github.com/bridgesense/chinuk-wawa-custom-keyboard
+// License :  GNU General Public License Version 3
+
+default partial alphanumeric_keys modifier_keys
+xkb_symbols "basic" {
+
+    name[Group1]= "Chinuk Wawa";
+
+    key <TLDE> {[ grave, asciitilde]};
+    key <AE01> {[ 1, exclam ]};
+    key <AE02> {[ 2, at ]};
+    key <AE03> {[ 3, numbersign ]};
+    key <AE04> {[ 4, dollar ]};
+    key <AE05> {[ 5, percent ]};
+    key <AE06> {[ 6, U0027 ]};
+    key <AE07> {[ 7, ampersand ]};
+    key <AE08> {[ 8, asterisk ]};
+    key <AE09> {[ 9, parenleft ]};
+    key <AE10> {[ 0, parenright ]};
+    key <AE11> {[ minus, underscore ]};
+    key <AE12> {[ equal, plus ]};
+
+    key <AD01> {[ q, U0313 ]};
+    key <AD02> {[ w, U02B7 ]};
+    key <AD03> {[ U0259, U00E9 ]};
+    key <AD04> {[ r, U03B5 ]};
+    key <AD05> {[ t, U0313 ]}; 
+    key <AD06> {[ y, U028A ]};
+    key <AD07> {[ u, U00FA ]};
+    key <AD08> {[ i, U00ED ]};
+    key <AD09> {[ o, U00F3 ]};
+    key <AD10> {[ p, U1E55 ]};
+    key <AD11> {[bracketleft, U2184 ]};
+    key <AD12> {[bracketright, U2192 ]};
+
+    key <AC01> {[ a, U00E1 ]};
+    key <AC02> {[ s, U0161 ]};
+    key <AC03> {[ d, f ]};
+    key <AC04> {[ U0259, U0313 ]};
+    key <AC05> {[ g, U01F5 ]};
+    key <AC06> {[ h, U02B0 ]};
+    key <AC07> {[ j, U030C ]};
+    key <AC08> {[ k, U1E31 ]};
+    key <AC09> {[ l, U026C ]};
+    key <AC10> {[ semicolon, colon ]};
+    key <AC11> {[ U0313, U201D ]};
+    key <BKSL> {[ backslash, bar ]};
+
+    key <AB01> {[ z, U028C ]};
+    key <AB02> {[ x, U0323 ]};
+    key <AB03> {[ c, U0107 ]};
+    key <AB04> {[ U010D, U010D ]};
+    key <AB05> {[ b, v ]};
+    key <AB06> {[ n, m ]};
+    key <AB07> {[ U019B, U0313 ]};
+    key <AB08> {[ comma, U026A ]};
+    key <AB09> {[ period, ae ]};
+    key <AB10> {[ U0294, question ]};
+};
