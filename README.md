@@ -1,6 +1,6 @@
 # Chinuk Wawa - XKB integration (Linux)
 
-Chinuk Wawa is an Indigenous trade language once extensively used throughout the Pacific Northwest by Native American tribes. It is taught in an immersive classroom setting by the [Confederated Tribes of Grand Ronde](https://www.grandronde.org/services/education/shawash-ili%CA%94i-skul/). Remote learning and academic accreditation for Chinuk Wawa is available through [Lane Community College](https://www.lanecc.edu/programs-academics/academic-departments/humanities-division/language-studies-department/chinuk-wawa).
+Chinuk Wawa is an Indigenous trade language once extensively used throughout the Pacific Northwest. It is taught in an immersive classroom setting by the [Confederated Tribes of Grand Ronde](https://www.grandronde.org/services/education/shawash-ili%CA%94i-skul/). Remote learning and academic accreditation for Chinuk Wawa is available through [Lane Community College](https://www.lanecc.edu/programs-academics/academic-departments/humanities-division/language-studies-department/chinuk-wawa).
 
 This installs a Chinuk Wawa custom keyboard onto most Linux distributions without the need of additional software.
 
