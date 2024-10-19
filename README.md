@@ -6,7 +6,7 @@ This installs a Chinuk Wawa custom keyboard onto most Linux distributions withou
 
 ## Installation
 
-1. Open a terminal and run the following command. You will need the root password to install a single text file to system.
+1. Open a terminal and run the following command. You will need the root password to install a single text file to your Linux system.
 ```
 sudo curl -o /usr/share/X11/xkb/symbols/custom "https://raw.githubusercontent.com/bridgesense/chinuk-wawa-custom-keyboard/refs/heads/main/custom"
 ```
