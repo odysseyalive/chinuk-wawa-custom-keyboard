@@ -43,7 +43,7 @@ xkb_symbols "basic" {
     key <AC08> {[ k, U1E31 ]};
     key <AC09> {[ l, U026C ]};
     key <AC10> {[ semicolon, colon ]};
-    key <AC11> {[ U0313, U201D ]};
+    key <AC11> {[ U0060, U201D ]};
     key <BKSL> {[ backslash, bar ]};
 
     key <AB01> {[ z, U028C ]};
