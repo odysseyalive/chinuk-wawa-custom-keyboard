@@ -6,7 +6,7 @@ xkb_symbols "basic" {
 
     name[Group1]= "Chinuk Wawa";
 
-    key <TLDE> {[ grave, asciitilde]};
+    key <TLDE> {[ U0313, asciitilde]};
     key <AE01> {[ 1, exclam ]};
     key <AE02> {[ 2, at ]};
     key <AE03> {[ 3, numbersign ]};
