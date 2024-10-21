@@ -10,13 +10,30 @@ This installs a Chinuk Wawa custom keyboard onto most Linux distributions withou
 ```
 sudo curl -o /usr/share/X11/xkb/symbols/custom "https://raw.githubusercontent.com/bridgesense/chinuk-wawa-custom-keyboard/refs/heads/main/custom"
 ```
-2. Activate the layout on your desktop via the keyboard settings by selecting "A user-defined custom Layout". Here's an example for KDE Plasma. You may also need to add an additional keyboard layout for toggling between keyboards.
+2. Activate the layout on your desktop via the keyboard settings by selecting "A user-defined custom Layout". 
+
+Here's an example for KDE Plasma. You may also need to add an additional keyboard layout for toggling between keyboards.
 
 ![select layout](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/blob/main/media/select_layout.jpeg?raw=true)
 
-3. Toggle the keyboard layout using the taskbar or the keyboard shortcut appropriate to your Linux window manager. In KDE the shortcut is Meta+Alt+k.
+Here's an example for Gnome. This should also work for any other window manager that borrows x components.
+
+![add keyboard layout](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/blob/main/media/Gnome-01.jpeg?raw=true)
+
+![type custom](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/blob/main/media/Gnome-02.jpeg?raw=true)
+
+![select layout](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/blob/main/media/Gnome-03.jpeg?raw=true)
+
+3. Toggle the keyboard layout using the taskbar or the keyboard shortcut appropriate to your Linux window manager. 
+
+In KDE the shortcut is Meta+Alt+k.
 
 ![toggle keyboard](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/blob/main/media/toggle_keyboard.jpeg?raw=true)
+
+In Gnome the shortcut is Meta+Spacebar.
+
+![toggle keyboard](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/blob/main/media/Ghome-04.jpeg?raw=true)
+
 ## The Layout
 
 ![noramal state](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/blob/main/media/cw_normal.jpeg?raw=true)
