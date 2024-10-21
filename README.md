@@ -36,7 +36,7 @@ In KDE the shortcut is Meta+Alt+k.
 
 In Gnome the shortcut is Meta+Spacebar.
 
-![toggle keyboard](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/blob/main/media/Ghome-04.jpeg?raw=true)
+![toggle keyboard](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/blob/main/media/Gnome-04.jpeg?raw=true)
 
 ## The Layout
 
