@@ -7,10 +7,12 @@ This installs a Chinuk Wawa custom keyboard onto most Linux distributions withou
 ## Installation
 
 1. Open a terminal and run the following command. You will need the root password to install a single text file to your Linux system.
+
 ```
 sudo curl -o /usr/share/X11/xkb/symbols/custom "https://raw.githubusercontent.com/bridgesense/chinuk-wawa-custom-keyboard/refs/heads/main/custom"
 ```
-2. Activate the layout on your desktop via the keyboard settings by selecting "A user-defined custom Layout." 
+
+2. Activate the layout on your desktop via the keyboard settings by selecting "A user-defined custom Layout."
 
 Here's an example for KDE Plasma. You may also need to add an additional keyboard layout for toggling between keyboards.
 
@@ -28,7 +30,7 @@ Select "A user-defined custom Layout."
 
 ![select layout](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/blob/main/media/Gnome-03.jpeg?raw=true)
 
-3. Toggle the keyboard layout using the taskbar or the keyboard shortcut appropriate to your Linux window manager. 
+3. Toggle the keyboard layout using the taskbar or the keyboard shortcut appropriate to your Linux window manager.
 
 In KDE the shortcut is Meta+Alt+k.
 
@@ -44,7 +46,7 @@ In Gnome the shortcut is Meta+Spacebar.
 
 ![shift state](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/blob/main/media/cw_shift.jpeg?raw=true)
 
-### Notes:
+### Notes
 
 Although this keyboard works in most settings, xkb only allows the binding of one Unicode character to a single key. The letters `q̓`, `t̓`, `x̣`, and `ƛ̓` do not have a single Unicode equivalent. To use these characters it is necessary to type the letter twice, once in standard state and once in shift state.
 
@@ -53,3 +55,11 @@ For example to get the letter `x̣`, type x and then type shift+x.
 One advantage to the xkb system is that the keyboard is available to all applications, including the terminal.
 
 ![terminal example](https://github.com/bridgesense/chinuk-wawa-custom-keyboard/blob/main/media/terminal_example.jpeg?raw=true)
+
+### KDE Work-around
+
+On newer versions of KDE, the selected keyboard might not be retained after restarting the system due to a [bug 442942](https://bugs.kde.org/show_bug.cgi?id=442942). The only work around at the moment is to run the following command from your terminal after selecting and applying the custom keyboard layout.
+
+```
+sudo chattr +i ~/.config/kxkbrc
+```
