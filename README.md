@@ -58,7 +58,7 @@ One advantage to the xkb system is that the keyboard is available to all applica
 
 ### KDE Work-around
 
-On newer versions of KDE, the selected keyboard might not be retained after restarting the system due to a [bug 442942](https://bugs.kde.org/show_bug.cgi?id=442942). The only work around at the moment is to run the following command from your terminal after selecting and applying the custom keyboard layout.
+On newer versions of KDE, the selected keyboard might not be retained after restarting the system due to [bug #442942](https://bugs.kde.org/show_bug.cgi?id=442942). The only work around at the moment is to run the following command from your terminal after selecting and applying the custom keyboard layout. Just keep in mind, any subsequent changes to keyboard layout will 'also' not be saved.
 
 ```
 sudo chattr +i ~/.config/kxkbrc
